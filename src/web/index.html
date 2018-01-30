@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="css/material.teal-pink.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/material.extra.css" type="text/css" />
+        <link rel="stylesheet" href="css/material.amber-blue.min.css" type="text/css" />
+        <link rel="stylesheet" href="icon/iconfont.css" type="text/css" />
+        <link rel="stylesheet" href="css/counter.css" type="text/css" />
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script src="js/counter.js"></script>
+		<style>*{font-family:'Microsoft Yahei';}</style>
+	</head>
+	
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+					mdl-layout--fixed-header mdl-tabs mdl-js-tabs" style="position:fixed;">
+		  <div class="mdl-layout__drawer navigation" style="position:fixed;">
+			<div class="mdl-layout-title navigation_header" style="background:url(img/bg_header.jpg)no-repeat center center;" >
+				<span style="position:absolute;bottom:0px;">代码行数计数器</span>
+			</div>
+			<nav class="mdl-navigation">
+					<a onclick="onStatisticTabClick()" id="navigation_statistic" class="mdl-navigation__link navigation_item" href="javascript:void(0)"><i class="iconfont icon-tongji"></i> 统计</a>
+					<a onclick="onSettingTabClick()" id="navigation_setting" class="mdl-navigation__link navigation_item" href="javascript:void(0)"><i class="iconfont icon-shezhi-tianchong"></i> 设置</a>
+					<a onclick="onAboutTabClick()" id="navigation_about" class="mdl-navigation__link navigation_item" href="javascript:void(0)"><i class="iconfont icon-guanyu"></i> 关于</a>
+					<a onclick="onExitTabClick()" id="navigation_exit" class="mdl-navigation__link navigation_item" href="javascript:void(0)"><i class="iconfont icon-exittoapp"></i> 退出</a>
+			</nav>
+		  </div>
+		  <main class="mdl-layout__content" style="width:100%;margin-right:15px;">
+			<div class="page-content" style="margin-left:60px;" style="width:100%;margin-right:15px;">
+				<!-- 内容 -->
+				<div class="mdl-tabs__panel is-active" id="tab_statistic" style="width:100%;margin-right:15px;">
+					<button onclick="app.log()">click me</button>
+					<h5 onclick="fuck()" id="tab_statistic_title">title</h5>
+					<hr />
+					<p>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+						First tab's content.<br>
+					</p>
+				</div>
+				<div class="mdl-tabs__panel" id="tab_setting">
+					<h5>过滤设置</h5>
+					<hr />
+					
+
+<ul class="demo-list-two mdl-list">
+	<li class="mdl-list__item mdl-list__item--two-line">
+		<span class="mdl-list__item-primary-content">
+			<span>文件类型过滤</span>
+			<span class="mdl-list__item-sub-title">如果打开，将会在统计时排除指定类型的文件</span>
+		</span>
+		<span class="mdl-list__item-secondary-action">
+			<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+				<input type="checkbox" id="list-switch-1" class="mdl-switch__input" checked />
+			</label>
+		</span>
+	</li>
+	<li class="mdl-list__item mdl-list__item--two-line">
+		<span class="mdl-list__item-primary-content">
+			<span>过滤列表类型</span>
+			<span class="mdl-list__item-sub-title">指定过滤列表是黑名单还是白名单,打开则为白名单</span>
+		</span>
+		<span class="mdl-list__item-secondary-action">
+			<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-2">
+				<input type="checkbox" id="list-switch-2" class="mdl-switch__input" checked />
+			</label>
+		</span>
+	</li>
+	
+	<li class="mdl-list__item mdl-list__item--two-line" style="display:inline-block;">
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">e Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deleip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+<span class="mdl-chip mdl-chip--deletable">
+    <span class="mdl-chip__text">Deletable Chip</span>
+    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
+</span>
+	</li>
+	
+</ul>					
+					
+					
+					
+					
+					
+
+				</div>
+				<div class="mdl-tabs__panel" id="tab_about">
+					<p>Third tab's content.</p>
+				</div>
+				<div class="mdl-tabs__panel" id="tab_exit">
+					<p>123123123123123 tab's content.</p>
+				</div>
+			
+			</div>
+		  </main>
+		</div>
+	</body>
+
+	<script>
+	function fuck(){
+		$('#tab_statistic_title').append('Hello!!!')
+	}
+	</script>
+	
+</html>

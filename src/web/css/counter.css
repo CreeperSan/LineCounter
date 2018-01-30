@@ -1,0 +1,40 @@
+html,body {
+	height:100%;
+}
+
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+h5{
+	color:rgb(255,193,7);
+}
+
+.navigation{
+	width:300px;
+}
+
+.navigation_item{
+	font-size:18px;
+}
+
+.navigation_active{
+	background:#E3E3E3;
+	color:black;
+}
+
+.navigation_header{
+	color:white;
+	font-size:26px;
+	background-size:cover;
+	height:160px;
+}
+
+.demo-list-two {
+  width: 950px;;
+}
