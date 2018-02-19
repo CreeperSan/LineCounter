@@ -1,12 +1,12 @@
 import javafx.application.Platform
+import javafx.beans.value.ChangeListener
+import javafx.beans.value.ObservableValue
+import javafx.concurrent.Worker
 import javafx.embed.swing.JFXPanel
 import javafx.scene.Scene
-import javafx.scene.layout.FlowPane
 import javafx.scene.web.WebEngine
 import javafx.scene.web.WebView
-import java.awt.Button
-import java.awt.FlowLayout
-import javax.swing.JButton
+import netscape.javascript.JSObject
 import javax.swing.JFrame
 
 class LineCounter : JFrame() {
@@ -46,12 +46,20 @@ class LineCounter : JFrame() {
     private fun initLayout(){
         Platform.runLater {
             mainWebView = WebView()
-            mainWebView.isContextMenuEnabled = false
+//            mainWebView.isContextMenuEnabled = false
             mainScene = Scene(mainWebView)
             mainPanel.scene = mainScene
             mainWebEngine = mainWebView.engine
             mainWebEngine.isJavaScriptEnabled = true
-            messenger = Messenger(mainWebEngine,this)
+            val jsCallBack = JSCallback()
+            mainWebEngine.loadWorker.stateProperty().addListener(object : ChangeListener<Worker.State>{
+                override fun changed(observable: ObservableValue<out Worker.State>, oldValue: Worker.State, newValue: Worker.State) {
+                    if (newValue == Worker.State.SUCCEEDED){
+                        val jsObject = mainWebEngine.executeScript("window") as JSObject
+                        jsObject.setMember("app",jsCallBack)
+                    }
+                }
+            })
 
             mainWebEngine.load(javaClass.getResource("web/index.html").toExternalForm())
 

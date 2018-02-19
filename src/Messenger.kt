@@ -13,13 +13,14 @@ class Messenger(var webEngine: WebEngine,var lineCounter: LineCounter){
         val javaObject = JavaApplicationObject()
         jsObject.setMember("app",javaObject)
 
+
     }
 
     /**
      *  执行JS方法
      */
     private fun runJS(javascript:String){
-        Platform.runLater(Runnable {
+        Platform.runLater({
             webEngine.executeScript(javascript)
         })
     }
