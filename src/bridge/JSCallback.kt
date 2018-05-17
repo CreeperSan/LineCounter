@@ -73,6 +73,10 @@ class JSCallback {
         }
     }
 
+    fun getFilterList(){
+        LineCounter.getJsOperator().onFilterList();
+    }
+
 
 
 }

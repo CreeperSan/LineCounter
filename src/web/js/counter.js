@@ -14,21 +14,17 @@ var vue = new Vue({
             mTitle : '行数计数器',
             mShowTab : 0,
             mState : STATE_IDLE,
-            // drawerList  : [{
-            //     title : '首页',
-            //     icon : ''
-            // },{
-			 //    title : '过滤',
-            //     icon : ''
-            // },{
-			 //    title : '帮助',
-            //     icon : ''
-            // },{
-			 //    title : '关于',
-            //     icon : ''
-            // }],
-			drawerList  : [{
+            drawerList  : [{
                 title : '首页',
+                icon : ''
+            },{
+			    title : '过滤',
+                icon : ''
+            },{
+			    title : '帮助',
+                icon : ''
+            },{
+			    title : '关于',
                 icon : ''
             }],
             pathStr : '',
@@ -60,8 +56,14 @@ function javaChooseFileFolder() {
     app.showChoosePathDialog();
 }
 
+// 点击了开始计算
 function javaStartCount() {
     app.startCountLines(vue.pathStr);
+}
+
+//点击了选择过滤规则
+function clickPickFilter() {
+    app.getFilterList();
 }
 
 
@@ -78,5 +80,10 @@ function onResult(content) {
     vue.onResult(content);
 }
 
+
+// 过滤文件部分
+function onFilterFile(fileListStr) {
+
+}
 
 

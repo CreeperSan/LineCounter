@@ -3,11 +3,11 @@
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" href="css/material.teal-pink.min.css" type="text/css" />
-        <link rel="stylesheet" href="css/material.extra.css" type="text/css" />
-        <link rel="stylesheet" href="css/material.amber-blue.min.css" type="text/css" />
         <link rel="stylesheet" href="css/counter.css" type="text/css" />
-        <script src="js/material.min.js"></script>
+        <link rel="stylesheet" href="css/material-icon-font.css">
+        <link rel="stylesheet" href="css/material-blue-pink.min.css">
+
+        <script defer src="js/material.min.js"></script>
 		<script src="js/vue.js"></script>
 	</head>
 	
@@ -39,7 +39,10 @@
 			<div class="page-content">
                 <!-- 首页界面 -->
                 <div class="flex index-root" v-if="mShowTab === 0">
-                    <div class="index-path-div flex">
+
+                    <!-- 选择文件路径 -->
+
+                    <div class="index-path-div flex margin-16">
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="javaChooseFileFolder()">
                             选择文件路径
                         </button>
@@ -47,33 +50,43 @@
                             <input class="mdl-textfield__input" v-model="pathStr" type="text" id="sample1">
                         </div>
                     </div>
-                    <!--<div class="index-path-div flex" style="justify-content: space-between;">-->
-                        <!--<button class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect">-->
-                            <!--选择过滤规则-->
-                        <!--</button>-->
-                        <!--<span class="mdl-chip">-->
-                            <!--<span class="mdl-chip__text">Basic Chip</span>-->
-                        <!--</span>-->
-                    <!--</div>-->
-                    <div style="margin-top: 16px;" v-if="mState === 1">
+
+                    <!-- 选择过滤规则 -->
+
+                    <div class="index-path-div flex margin-16" style="justify-content: space-between;">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="clickPickFilter()">
+                            选择过滤规则
+                        </button>
+                        <span class="mdl-chip">
+                            <span class="mdl-chip__text">Basic Chip</span>
+                        </span>
+                    </div>
+
+                    <!-- 进度显示 -->
+
+                    <div class="margin-16" style="margin-top: 16px;" v-if="mState === 1">
                         <div id="process-bar" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="flex: 1;width: 100%;"></div>
                         <p style="max-lines: 1;margin-top: 8px;">正在处理 /123/1/2/1/5/sad.js</p>
                     </div>
-                    <div style="margin-top: 16px;">
+
+                    <!-- 操作按钮 -->
+
+                    <div class="margin-16" style="margin-top: 16px;">
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="javaStartCount()">
                             给我算！
                         </button>
                     </div>
-                    <div style="margin-top: 16px;">
-                        <p v-html="resultStr">
-                            <!--{{ resultStr }}-->
-                        </p>
+
+                    <!-- 结果显示 -->
+
+                    <div class="margin-16" style="margin-top: 16px;">
+                        <p v-html="resultStr"></p>
                     </div>
                 </div>
                 <!-- 过滤界面 -->
                 <div class="mdl-grid" v-if="mShowTab === 1">
                     <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" style="position: fixed;right: 26px;bottom: 26px;">
-                        <i class="material-icons">add</i>
+                        <i class="material-icons">+</i>
                     </button>
 
                     <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp" style="width: 100%;">

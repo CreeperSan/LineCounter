@@ -36,6 +36,11 @@ class LineCounter private constructor(): JFrame() {
         fun getExecutor() : Executor{
             return getInstance().mExecutor
         }
+
+        @JvmStatic
+        fun main(args: Array<String>) {
+            LineCounter.getInstance()
+        }
     }
 
     private lateinit var mainPanel : JFXPanel
@@ -86,8 +91,6 @@ class LineCounter private constructor(): JFrame() {
                     }
                 }
             })
-
-
             mainWebEngine.load(javaClass.getResource("web/index.html").toExternalForm())
 
         }
@@ -96,6 +99,6 @@ class LineCounter private constructor(): JFrame() {
 
 
 
-
 }
+
 

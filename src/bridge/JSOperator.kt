@@ -42,4 +42,15 @@ class JSOperator(private var webEngine: WebEngine) {
         runJS("onResult('$content')")
     }
 
+    /**
+     *  文件过滤部分
+     */
+    fun onFilterList(){
+        val file = File("filter/")
+        file.listFiles().forEach {
+            println(it.absoluteFile)
+        }
+        println("${file.exists()}   ${file.absolutePath}")
+    }
+
 }

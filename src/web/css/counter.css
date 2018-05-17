@@ -21,7 +21,8 @@ h5{
 
 .action-bar-title{ color: white;font-size: 36px;font-weight: bold; }
 
+.margin-16{ margin: 8px 16px; }
 
 .index-root{ flex-direction: column }
-.index-path-div{ flex-direction: row;align-items: center; }
+.index-path-div{ flex-direction: row;align-items: center;}
 .index-path-input-div{ margin-left: 26px;flex:1; }
