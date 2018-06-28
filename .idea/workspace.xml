@@ -2,32 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3539af7-cf6a-4056-a44d-02ac360e4009" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/filter/filter1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter/filter2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter/filter3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/css/material-blue-pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/css/material-icon-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/FunctionListItemBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/ApplicationConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentAboutView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentFilterView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentHelpView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentIndexView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentStatisticView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ContentView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/FunctionListView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MainView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/holder/FunctionItemHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$initLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$initLayout$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LineCounter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LineCounter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/filter1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/filter2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/filter3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$initLayout$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/LineCounter$initLayout$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LineCounter/LineCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/LineCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/META-INF/LineCounter.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/web/css/counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/js/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/web/js/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/js/material.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LineCounter/web/js/material.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSOperator$runJS$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/bridge/JSOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/executor/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/counter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/material-blue-pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/material-icon-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/material.amber-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/material.extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/css/material.teal-pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/img/bg_header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/js/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/js/material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LineCounter/web/js/vue.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LineCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineCounter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/JSCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/JSCallback.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/JSOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/JSOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/css/counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/css/counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/js/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/js/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/js/material.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/js/material.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/JSCallback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/JSOperator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/Executor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/counter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/material-blue-pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/material-icon-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/material.amber-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/material.extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/css/material.teal-pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/img/bg_header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/js/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/js/material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/js/vue.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,66 +66,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSCallback.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bridge/JSCallback.kt">
+      <file leaf-file-name="FunctionListView.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/FunctionListView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSOperator.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bridge/JSOperator.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineCounter.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LineCounter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/js/counter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="490">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="135" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14#262#0" expanded="true" />
+                <element signature="n#!!block;n#getInstance#0;n#!!block;n#Companion#0;n#!!block;n#FunctionListView#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="counter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/css/counter.css">
+      <file leaf-file-name="ListView.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="218">
+              <caret line="586" column="22" selection-start-line="586" selection-start-column="22" selection-end-line="586" selection-end-column="22" />
+              <folding>
+                <element signature="e#17686#17687#0" expanded="true" />
+                <element signature="e#17728#17729#0" expanded="true" />
+                <element signature="e#24455#24456#0" expanded="true" />
+                <element signature="e#24503#24504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionItemHolder.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/holder/FunctionItemHolder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+              <folding>
+                <element signature="e#21#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Region.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/layout/Region.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="687" column="22" selection-start-line="687" selection-start-column="22" selection-end-line="687" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,10 +120,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,6 +145,8 @@
       <find>&amp;#10;</find>
       <find>&lt;br/&gt;</find>
       <find>material</find>
+      <find>FunctionItemHolder</find>
+      <find>item</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;br /&gt;</replace>
@@ -164,7 +178,17 @@
         <option value="$PROJECT_DIR$/src/bridge/JSOperator.kt" />
         <option value="$PROJECT_DIR$/filter/filter3" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
+        <option value="$PROJECT_DIR$/src/config/Config.kt" />
+        <option value="$PROJECT_DIR$/src/config/ApplciationConfig.kt" />
+        <option value="$PROJECT_DIR$/src/config/ApplicationConfig.kt" />
+        <option value="$PROJECT_DIR$/src/bean/FunctionListItemBean.kt" />
         <option value="$PROJECT_DIR$/src/LineCounter.kt" />
+        <option value="$PROJECT_DIR$/src/view/ContentView.kt" />
+        <option value="$PROJECT_DIR$/src/view/ContentAboutView.kt" />
+        <option value="$PROJECT_DIR$/src/view/MainView.kt" />
+        <option value="$PROJECT_DIR$/src/view/TestView.java" />
+        <option value="$PROJECT_DIR$/src/view/FunctionListView.kt" />
+        <option value="$PROJECT_DIR$/src/view/holder/FunctionItemHolder.kt" />
       </list>
     </option>
   </component>
@@ -177,10 +201,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="988" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -190,9 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,52 +225,47 @@
             <path>
               <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LineCounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineCounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="holder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="JS&#9;FILE&#9;file:///home/creepersan/git/LineCounter/src/bridge/JSCallback.kt" />
+    <property name="SearchEverywhereHistoryKey" value="FuncV&#9;FILE&#9;file:///Users/creepersan/project/LineCounter/src/view/FunctionListView.kt&#10;JS&#9;FILE&#9;file:///home/creepersan/git/LineCounter/src/bridge/JSCallback.kt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -283,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LineCounter">
+  <component name="RunManager" selected="Kotlin.LineCounterKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -314,6 +331,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="LineCounter" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="LineCounterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LineCounter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LineCounterKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="Main11Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -474,9 +501,11 @@
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.util.TransferUtil" />
       <item itemvalue="Kotlin.LineCounter" />
+      <item itemvalue="Kotlin.LineCounterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LineCounterKt" />
         <item itemvalue="Kotlin.LineCounter" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.util.TransferUtil" />
@@ -503,30 +532,33 @@
       <workItem from="1526476191872" duration="1994000" />
       <workItem from="1526478436172" duration="4998000" />
       <workItem from="1526484553178" duration="2701000" />
+      <workItem from="1530189946555" duration="709000" />
+      <workItem from="1530191894388" duration="7698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22948000" />
+    <option name="totallyTimeSpent" value="31355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="988" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32875144" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32814237" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22107674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22024472" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18072917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18072917" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,13 +568,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info id="Nl-Palette" order="6" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,14 +585,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/LineCounter.kt</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
   </component>
@@ -569,107 +593,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174582">
-          <caret line="9699" column="40" selection-start-line="9699" selection-start-column="33" selection-end-line="9699" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LineCounter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/JSCallback.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/JSOperator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Messenger.kt" />
-    <entry file="file://$PROJECT_DIR$/src/web/css/counter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/js/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="93" column="41" lean-forward="true" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/counter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/js/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main11.kt" />
-    <entry file="file://$PROJECT_DIR$/src/Main11.kt" />
-    <entry file="file://$PROJECT_DIR$/src/LineCounter.kt" />
     <entry file="file://$PROJECT_DIR$/src/bridge/JSCallback.kt" />
     <entry file="file://$PROJECT_DIR$/src/Messenger.kt" />
     <entry file="file://$PROJECT_DIR$/src/web/index.html" />
@@ -681,20 +604,8 @@
     <entry file="file://$PROJECT_DIR$/src/JavaApplicationObject.kt" />
     <entry file="file://$PROJECT_DIR$/src/web/js/popper.min.js" />
     <entry file="file://$PROJECT_DIR$/src/web/js/jquery-3.2.1.slim.min.js" />
-    <entry file="jrt:///home/creepersan/software/java!/jdk.packager/com/sun/javafx/tools/resource/dtoolkit/resources/web-files/dtjava.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1765" column="21" selection-start-line="1765" selection-start-column="21" selection-end-line="1765" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/java/lib/src.zip!/java.desktop/javax/swing/JFileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="161" column="45" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///home/creepersan/software/java!/jdk.packager/com/sun/javafx/tools/resource/dtoolkit/resources/web-files/dtjava.js" />
+    <entry file="jar://$USER_HOME$/software/java/lib/src.zip!/java.desktop/javax/swing/JFileChooser.java" />
     <entry file="file://$PROJECT_DIR$/out/production/LineCounter/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-648" />
@@ -711,114 +622,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/TransferUtil.kt" />
     <entry file="file://$PROJECT_DIR$/src/Messenger.kt" />
-    <entry file="file://$PROJECT_DIR$/src/executor/Executor.kt">
+    <entry file="file://$PROJECT_DIR$/src/executor/Executor.kt" />
+    <entry file="file://$PROJECT_DIR$/src/web/css/material-blue-pink.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/web/css/material.extra.css" />
+    <entry file="file://$PROJECT_DIR$/src/web/css/material.teal-pink.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/web/js/material.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/web/js/vue.js" />
+    <entry file="file://$PROJECT_DIR$/src/web/css/material-icon-font.css" />
+    <entry file="file://$PROJECT_DIR$/src/web/css/counter.css" />
+    <entry file="file://$PROJECT_DIR$/src/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/web/js/counter.js" />
+    <entry file="file://$PROJECT_DIR$/filter/filter1" />
+    <entry file="file://$PROJECT_DIR$/filter/filter3" />
+    <entry file="file://$PROJECT_DIR$/filter/filter2" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/JSOperator.kt" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/JSCallback.kt" />
+    <entry file="file://$PROJECT_DIR$/src/Main.kt" />
+    <entry file="file://$PROJECT_DIR$/src/view/ContentHelpView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="e#18#130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/material-blue-pink.min.css">
+    <entry file="file://$PROJECT_DIR$/src/view/ContentFilterView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="7" column="1950" selection-start-line="7" selection-start-column="1950" selection-end-line="7" selection-end-column="1950" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/material.extra.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/material.teal-pink.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/js/material.min.js">
+    <entry file="file://$PROJECT_DIR$/src/view/ContentStatisticView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="7" column="3057" selection-start-line="7" selection-start-column="3057" selection-end-line="7" selection-end-column="3057" />
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/js/vue.js">
+    <entry file="file://$PROJECT_DIR$/src/view/ContentIndexView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/material-icon-font.css">
+    <entry file="file://$PROJECT_DIR$/src/config/ApplicationConfig.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/css/counter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/js/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/filter1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/filter3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/filter2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/JSOperator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/JSCallback.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LineCounter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#136#0" expanded="true" />
+            <element signature="e#201#217#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#145#0" expanded="true" />
+            <element signature="n#!!block;n#getInstance#0;n#!!block;n#Companion#0;n#!!block;n#MainView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ContentView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ContentAboutView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#80#0" expanded="true" />
+            <element signature="n#!!block;n#getView#0;n#!!block;n#Companion#0;n#!!block;n#ContentAboutView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/FunctionListItemBean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/layout/HBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="334" column="22" selection-start-line="334" selection-start-column="22" selection-end-line="334" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/layout/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="687" column="22" selection-start-line="687" selection-start-column="22" selection-end-line="687" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/control/ListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="586" column="22" selection-start-line="586" selection-start-column="22" selection-end-line="586" selection-end-column="22" />
+          <folding>
+            <element signature="e#17686#17687#0" expanded="true" />
+            <element signature="e#17728#17729#0" expanded="true" />
+            <element signature="e#24455#24456#0" expanded="true" />
+            <element signature="e#24503#24504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/holder/FunctionItemHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#21#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/TestView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/FunctionListView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="135" />
+          <folding>
+            <element signature="e#14#262#0" expanded="true" />
+            <element signature="n#!!block;n#getInstance#0;n#!!block;n#Companion#0;n#!!block;n#FunctionListView#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -880,6 +837,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
