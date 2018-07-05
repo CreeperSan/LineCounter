@@ -5,8 +5,10 @@ import javafx.geometry.Insets
 import javafx.geometry.Pos
 import javafx.scene.control.Label
 import javafx.scene.control.ListCell
+import javafx.scene.image.Image
 import javafx.scene.image.ImageView
 import javafx.scene.layout.HBox
+import java.io.File
 
 class FunctionItemHolder : ListCell<FunctionListItemBean>(){
 
@@ -18,7 +20,8 @@ class FunctionItemHolder : ListCell<FunctionListItemBean>(){
         super.updateItem(item, empty)
         item ?: return
         val rootPane = HBox()
-        val itemImage = ImageView(item.icon)
+
+        val itemImage = ImageView(Image(File(item.icon).toURI().toString()))
         val itemTitle = Label(item.icon)
 
         rootPane.alignment = Pos.CENTER_LEFT

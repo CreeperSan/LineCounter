@@ -1,11 +1,16 @@
 package view
 
 import config.ApplicationConfig
+import config.Size
+import constant.ImagePath
+import executor.StatisticExecutor
 import javafx.scene.Group
 import javafx.scene.Scene
+import javafx.scene.image.Image
 import javafx.scene.layout.HBox
 import javafx.stage.Stage
-import java.awt.Color
+import javafx.stage.StageStyle
+import java.io.File
 
 class MainView private constructor(){
 
@@ -24,59 +29,81 @@ class MainView private constructor(){
             return mMainView as MainView
         }
 
-        private const val WIDTH_FUNCTION_LIST = 300
-        private const val WIDTH_CONTENT = ApplicationConfig.WIDTH - WIDTH_FUNCTION_LIST
-
     }
 
     private lateinit var rootGroup : Group
     private lateinit var rootScene : Scene
     private lateinit var rootPane : HBox
+    private lateinit var rootStage : Stage
     private val functionListView by lazy { FunctionListView.getInstance() }
+    private val contentView by lazy { ContentView.getInstance() }
 
     fun showWindow(primaryState : Stage){
-        initRoot(primaryState)
-        initWindowSize(primaryState)
+        rootStage = primaryState
+
+        initRoot()
+        initWindowSize()
+
+        rootStage.initStyle(StageStyle.UTILITY)
+
+        rootStage.icons.add(Image(File(ImagePath.ICON).toURI().toString()))   // Windows icon
 
         rootPane = HBox()
-        rootPane.minWidth = ApplicationConfig.WIDTH
-        rootPane.minHeight = ApplicationConfig.HEIGHT
+        rootPane.minWidth = Size.APPLICATION_WIDTH
+        rootPane.minHeight = Size.APPLICAITON_HEIGHT
 
         initLeftSide()
+        initRightSide()
 
-        show(primaryState)
+        initCloseAction()
+
+        show()
     }
 
     private fun initLeftSide(){
         rootPane.children.add(functionListView.getView())
     }
+    private fun initRightSide(){
+        rootPane.children.add(contentView.getView())
+    }
+
+    private fun initCloseAction(){
+        rootStage.setOnCloseRequest {
+            StatisticExecutor.getInstance().close()
+            System.exit(0)
+        }
+    }
 
     /*  Used to initialize root view  */
-    private fun initRoot(primaryState: Stage){
+    private fun initRoot(){
         rootGroup = Group()
-        rootScene = Scene(rootGroup, ApplicationConfig.WIDTH, ApplicationConfig.HEIGHT, null)
+        rootScene = Scene(rootGroup, Size.APPLICATION_WIDTH, Size.APPLICAITON_HEIGHT, null)
     }
 
     /*  Used to initialize application window  */
-    private fun initWindowSize(primaryState: Stage){
-        primaryState.title = ApplicationConfig.TITLE
+    private fun initWindowSize(){
+        rootStage.title = ApplicationConfig.TITLE
 
-        primaryState.isResizable = ApplicationConfig.IS_RESIZEABLE
+        rootStage.isResizable = ApplicationConfig.IS_RESIZEABLE
 
-        primaryState.minWidth = ApplicationConfig.WIDTH
-        primaryState.width = ApplicationConfig.WIDTH
-        primaryState.maxWidth = ApplicationConfig.WIDTH
+        rootStage.minWidth = Size.APPLICATION_WIDTH
+        rootStage.width = Size.APPLICATION_WIDTH
+        rootStage.maxWidth = Size.APPLICATION_WIDTH
 
-        primaryState.minHeight = ApplicationConfig.HEIGHT
-        primaryState.height = ApplicationConfig.HEIGHT
-        primaryState.maxHeight = ApplicationConfig.HEIGHT
+        rootStage.minHeight = Size.APPLICAITON_HEIGHT
+        rootStage.height = Size.APPLICAITON_HEIGHT
+        rootStage.maxHeight = Size.APPLICAITON_HEIGHT
 
     }
 
     /* Used to show window */
-    private fun show(primaryState: Stage){
+    private fun show(){
         rootGroup.children.add(rootPane)
-        primaryState.scene = rootScene
-        primaryState.show()
+        rootStage.scene = rootScene
+        rootStage.show()
+    }
+
+    fun getStage():Stage{
+        return rootStage
     }
 }
